@@ -1,8 +1,15 @@
 {
   "scripts": {
-    "demo": "node hello.js"
+    "demo": "node hello.js",
+    "test": "karma start karma.conf.js"
   },
   "dependencies": {
     "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2"
   }
 }
