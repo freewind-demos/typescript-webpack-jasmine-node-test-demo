@@ -8,6 +8,7 @@ Typescript Karma Webpack Jasmine Node Test Demo
 注意：
 1. 可以使用webpack把多个test文件打包成一个bundle js文件，交给jasmine执行
 2. 寻找多个测试文件时，可以使用`glob`这个库来匹配
+3. 如果typescript代码可以脱离webpack运行的，也可以直接使用jasmine来测（不需要webpack打包），见其它demo
 
 ```
 npm install
