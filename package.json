@@ -3,7 +3,7 @@
     "test": "webpack && jasmine dist/test/bundle.js"
   },
   "dependencies": {
-    "lodash": "4.17.10"
+    "lodash": "4.17.19"
   },
   "devDependencies": {
     "@types/glob": "7.1.1",
